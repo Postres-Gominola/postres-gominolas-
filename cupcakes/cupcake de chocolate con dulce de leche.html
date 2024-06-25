@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta de Postre</title>
+    <style>
+        body {
+            background-image: url('imagenes/dos-brownies-chocolate-mermeladas-pieza-madera.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            color: #d33a2c;
+            font-style: oblique;
+            text-shadow: 1px 1px #000;
+        }
+
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            margin-left: 245px;
+        }
+
+        th,
+        td {
+            border: 1px solid #d8e1ffb4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #69b2e2;
+            color: #000000;
+        }
+
+        td {
+            background-color: #ffd4f8;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        form input,
+        form textarea {
+            margin: 10px;
+            padding: 10px;
+            width: 80%;
+            max-width: 500px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background-color: #d33a2c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .media {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .media img,
+        .media video {
+            max-width: 30%;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        iframe {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 90px;
+            margin-left: 350px;
+            width: 70%;
+            height: 700px;
+        }
+
+        .alinear {
+            color: #000000;
+            text-shadow: 2px 2px #a7a7a7;
+        }
+        .png {
+            width: 80px ;
+            height: auto;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        .top {
+            margin-top: 100px;
+        }
+        .kyrie {
+            border-radius: 20px;
+            width: 50px;
+            height: auto;
+            margin-left: 500px;
+        }
+        .encuesta {
+        background-color: #faedb2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: auto;
+}
+.logo {
+        height: 60px;
+        width: 120px;
+}
+
+.lebron {
+            background-color: rgba(216, 195, 167, 0.0);
+            border: 2px solid rgba(0, 0, 0, 0.8);
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 45px;
+            width: 100px;
+            transition: transform 0.3s ease;
+        }
+
+        .lebron:hover {
+            transform: scale(1.2);
+        }
+        .navegacion {
+            display: flex;
+        }
+            .head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 63px;
+            background-color:rgba(216, 195, 167, 0.4);
+            width: 100%;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        
+        <div class="head">
+            <img class="logo" src="imagenes/osito.png" alt="osito">
+                <nav class="navegacion">
+
+                    <span id="seccion1" class="lebron"><a href="recetas.html">inicio</a></span>
+                
+                </nav>
+        </div>
+
+        <h1>Receta de Cupcakes de Chocolate <img class="png" src="imagenes/gato-abriendo-y-cerrando-la-boca.gif" alt="imagenes" ></h1>
+
+        <div class="media">
+            <img src="imagenes/deliciosos-cupcakes-glaseado-chocolate.jpg" alt="Cupcakes">        
+        </div>
+
+        <h2>Ingredientes</h2>
+        <table>
+            <tr>
+                <th>Ingrediente</th>
+                <th>Cantidad</th>
+            </tr>
+            <tr>
+                <td>Cacao amargo </td>
+                <td>40 gr</td>
+            </tr>
+            <tr>
+                <td>Agua hirviendo</td>
+                <td>250 CC</td>
+            </tr>
+            <tr>
+                <td>Harina</td>
+                <td>200 gr/td>
+            </tr>
+            <tr>
+                <td>Polvo de hornear</td>
+                <td>2 cucharadas </td>
+            </tr>
+            <tr>
+                <td>sal</td>
+                <td>Una pizca</td>
+            </tr>
+            <tr>
+                <td>Manteca</td>
+                <td>120 gr</td>
+            </tr>
+            <tr>
+                <td>Azúcar comúna</td>
+                <td>200 gr</td>
+            </tr>
+            <tr>
+                <td>huevos</td>
+                <td>2 pzs</td>
+            </tr>
+            <tr>
+                <td>Dulce de Leche</td>
+                <td>300 gr</td>
+            </tr>
+        
+        </table>
+
+     <div class="encuesta">
+        <h2>Procedimiento</h2>
+        
+            <ol>
+                <li><strong>Alistar los ingredientes.</strong></li>
+                <li><strong>Mezclar el cacao con el agua hirviendo y dejar enfriar. Precalentar el horno a 180°.</strong></li>
+                <li><strong>Batir la manteca pomada con el azúcar</strong></li>
+                <li><strong>Incorporamos los huevos</strong></li>
+                <li><strong>Batir hasta obtener una crema.</strong></li>
+                <li><strong>Incorporar una parte de los secos (harina mezclada con sal y polvo de hornear), con el cacao y el agua.</strong></li>
+                <li><strong>Mezclar e integrar el resto. La integración de forma alternada nos ayuda a tener una mejor preparación.</strong></li>
+                <li><strong>Obtener una crema homogénea.</strong></li>
+                <li><strong>Disponer en los moldes de cupcakes una parte de la preparación, agregar una cucharada de dulce de leche y agregar un poco más de preparación.</strong></li>
+                <li><strong>Llevar al horno por 20 minutos, o hasta que, introduciendo un palillo de madera, éste salga limpio y seco. ¡Dejar enfriar y a disfrutar!</strong></li>
+            </ol>
+    </div>        
+<div class="alinear">
+         
+            <div class="media video">
+                <video  controls>
+                    <source class="media" src="imagenes/Cupcakes de Chocolate con Leche _ SIN buttercream _ Chocoreto Recetas.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        
+</div>
+
+<iframe src="formulario.html" width="700px" height="300"></iframe>
+</div>
+
+
+
+    <audio autoplay loop>
+        <source src="musica/videoplayback.m4a" type="audio/mpeg">
+    </audio>
+</body>
+
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta de Postre</title>
+    <style>
+        body {
+            background-image: url('imagenes/Colorful-macaroons-cakes-paper-bucket_3840x2160.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            color: #d33a2c;
+            font-style: oblique;
+            text-shadow: 1px 1px #000;
+        }
+
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            margin-left: 245px;
+        }
+
+        th,
+        td {
+            border: 1px solid #7b9affb4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #b6ffd4;
+            color: #000000;
+        }
+
+        td {
+            background-color: #ffd4f8;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        form input,
+        form textarea {
+            margin: 10px;
+            padding: 10px;
+            width: 80%;
+            max-width: 500px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background-color: #d33a2c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .media {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .media img,
+        .media video {
+            max-width: 30%;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        iframe {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 90px;
+            width: 100%;
+            height: 700px;
+        }
+
+        .alinear {
+            color: #000000;
+            text-shadow: 2px 2px #a7a7a7;
+        }
+        .png {
+            width: 80px ;
+            height: auto;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        .top {
+            margin-top: 100px;
+        }
+        .kyrie {
+            border-radius: 20px;
+            width: 50px;
+            height: auto;
+            margin-left: 500px;
+        }
+        .encuesta {
+        background-color: #faedb2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: auto;
+}
+.logo {
+        height: 60px;
+        width: 120px;
+}
+
+.lebron {
+            background-color: rgba(216, 195, 167, 0.0);
+            border: 2px solid rgba(0, 0, 0, 0.8);
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 45px;
+            width: 100px;
+            transition: transform 0.3s ease;
+        }
+
+        .lebron:hover {
+            transform: scale(1.2);
+        }
+        .navegacion {
+            display: flex;
+        }
+            .head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 63px;
+            background-color:rgba(190, 234, 255,0.4);
+            width: 100%;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        
+        <div class="head">
+            <img class="logo" src="imagenes/osito.png" alt="osito">
+                <nav class="navegacion">
+
+                    <span id="seccion1" class="lebron"><a href="recetas.html">inicio</a></span>
+                
+                </nav>
+        </div>
+
+
+        <h1>Receta de Cupcakes de Chocolate <img class="png" src="imagenes/pngwing.com.png" alt="imagenes" ></h1>
+
+        <div class="media">
+            <img src="imagenes/Cake_Colored_background_Design_Multicolor_561450_1366x768.jpg" alt="Cupcakes">        
+        </div>
+
+        <h2>Ingredientes</h2>
+        <table>
+            <tr>
+                <th>Ingrediente</th>
+                <th>Cantidad</th>
+            </tr>
+            <tr>
+                <td>3 Peras medianas </td>
+                <td>200g</td>
+            </tr>
+            <tr>
+                <td>Zumo de limon</td>
+                <td>½ limon</td>
+            </tr>
+            <tr>
+                <td>azucar</td>
+                <td>50gr</td>
+            </tr>
+            <tr>
+                <td>Mantequilla SIN Sal</td>
+                <td>80gr</td>
+            </tr>
+            <tr>
+                <td>Harina de Trigo</td>
+                <td>225gr</td>
+            </tr>
+            <tr>
+                <td>Huevos</td>
+                <td>3 unidades</td>
+            </tr>
+            <tr>
+                <td>Levadura</td>
+                <td>2 cucharaditas</td>
+            </tr>
+            <tr>
+                <td>Canela</td>
+                <td>½ cucharadita</td>
+            </tr>
+            <tr>
+                <td>Nata para montar o Crema para Batir</td>
+                <td>100 ml</td>
+            </tr>
+            <tr>
+                <td>Leche</td>
+                <td>50 ml</td>
+            </tr>
+            <tr>
+                <td>sal</td>
+                <td>una pizca</td>
+            </tr>
+            <tr>
+                <td>Frosting de Queso y Nutella</td>
+                <td>Al gusto</td>
+            </tr>
+        </table>
+
+     <div class="encuesta">
+        <h2>Procedimiento</h2>
+        
+            <ol>
+                <li><strong>Primero pelamos las Peras y las cortamos en daditos.</strong></li>
+                <li><strong>Después ponemos a calentar en un cazo a fuego medio la mitad del Azúcar (25 gramos), la mitad de la Mantequilla (40 gramos) y el Zumo de Medio Limón. Cuando la mantequilla y el azúcar se hayan mezclado agregamos las peras y dejamos cocer entre 10 y 15 minutos, removiendo de vez en cuando. Las retiramos, colamos para que pierdan la grasa y dejamos enfriar.</strong></li>
+                <li><strong>Por otro lado en un bol mezclamos los Huevos, con el Azúcar, la pizca de Sal, la Nata, la Leche y la Mantequilla pomada.</strong></li>
+                <li><strong>Después mezclamos la Harina con la Levadura y Canela y la tamizamos sobre la mezcla en varias tandas. Mezclamos todos los ingredientes hasta que quede una masa sin grumos.</strong></li>
+                <li><strong>Por último, incorporamos la pera escurrida.</strong></li>
+                <li><strong>Vertemos la masa en moldes de silicona o moldes de papel para cupcakes hasta la mitad si no queremos que suban mucho o hasta ¾ partes.</strong></li>
+                <li><strong>Los introducimos en el horno precalentado a 180 ºC durante unos 20 o 25 minutos. Estarán listos cuando empiecen a dorarse y al introducir una aguja ésta no salga húmeda.</strong></li>
+                <li><strong>Los dejamos enfriar completamente encima de una rejilla antes de decorarlos.</strong></li>
+                <li><strong>Una vez que estén fríos ponemos el Frosting de Queso y Nutella con una manga pastelera. Los podemos decorar haciendo círculos y luego ponerles fideos de chocolate o sprinkles.</strong></li>
+            </ol>
+    </div>        
+<div class="alinear">
+         
+            <div class="media video">
+                <video  controls>
+                    <source class="media" src="imagenes/cupcake receta video.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        
+</div>
+
+        <h3>contesta el siguiente formulario por favor </h3>
+        <iframe src="x.html" width="700px" height="300"></iframe>
+    </div>
+
+
+    <audio autoplay loop>
+        <source src="imagenes/Go Go Go Go_ (Nightcore Version)(M4A_128K).mp3" type="audio/mpeg">
+    </audio>
+</body>
+
+</html>

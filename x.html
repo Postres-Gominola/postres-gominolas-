@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Iframes</title>
+    <link rel="stylesheet">
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+header iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.main-content {
+    display: flex;
+    height: calc(100% - 100px);
+}
+
+aside {
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid #dd1b1b;
+}
+
+aside iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+section {
+    width: 80%;
+    height: 100%;
+}
+
+section iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <iframe src="formulario para la pagina/formulario.html" name="cabecera" frameborder="0"></iframe>
+    </header>
+    <div class="main-content">
+        <aside>
+            <iframe src="" name="menu" frameborder="0"></iframe>
+        </aside>
+        <section>
+            <iframe src="formulario reseña.html" name="contenido" frameborder="0"></iframe>
+        </section>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postres Gominola</title>
+    <bgsound src="Main Theme - sugar (game)(MP3_160K).ogg" autoplay loop="infinite"></bgsound> 
+    <bgsound src="Main Theme - sugar (game)(MP3_160K).mp3" autoplay loop="infinite"></bgsound> 
+    
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+          
+
+
+        body {
+            background-color: rgb(249, 255, 197);
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 63px;
+            background-color: rgb(218, 240, 247);
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .navegacion {
+            display: flex;
+        }
+
+        .logo {
+            height: 100px;
+            width: 200px;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .titulo {
+            margin-top: 50px;
+        }
+
+        .div-encabezado {
+            background-color: rgb(241, 253, 188);
+            color: rgb(0, 0, 0);
+            margin: 20px;
+            padding: 20px;
+            width: 100%;
+            max-width: 300px;
+            border: 2px solid rgb(204, 0, 255);
+            box-shadow: 2px 2px 5px rgba(255, 0, 98, 0.5);
+            transition: background-color 0.3s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .div-encabezado:hover {
+            background-color: rgb(156, 243, 210);
+        }
+
+        .contenedor-flex {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .item {
+            flex: 1;
+            margin: 10px;
+        }
+
+        .curry {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+
+        .lebron {
+            background-color: rgb(218, 240, 247);
+            border: 2px solid rgb(170, 170, 170);
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 45px;
+            width: 100px;
+            transition: transform 0.3s ease;
+        }
+
+        .lebron:hover {
+            transform: scale(1.2);
+        }
+
+        .footer {
+            background-color: #ff8bc1;
+            color: #fff;
+            padding: 20px;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .head {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .logo {
+                margin-left: 0;
+                height: 80px;
+                width: 160px;
+            }
+
+            .navegacion {
+                margin-right: 0;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .contenedor {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .div-encabezado {
+                max-width: 100%;
+                margin: 10px;
+            }
+
+            .curry {
+                width: 120px;
+                height: 120px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                height: 60px;
+                width: 120px;
+            }
+
+            .lebron {
+                height: 40px;
+                width: 80px;
+                font-size: 0.9em;
+            }
+
+            .curry {
+                width: 90px;
+                height: 90px;
+            }
+
+            .footer {
+                font-size: 0.8em;
+            }
+        }
+
+
+            .mail{
+               margin-left: 100px;
+               margin-right: 100px;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <img class="logo" src="imagenes/osito.png" alt="osito">
+        <h1 align="center">POSTRES GOMINOLA</h1>
+        <nav class="navegacion">
+            
+            <span id="seccion2" class="lebron"><a href="#seccion6">Postres</a></span>
+            <span id="seccion3" class="lebron"><a href="#acerca">Acerca de nosotros</a></span>
+            <span id="seccion4" class="lebron"><a href="#acerca ">Contactos</a></span>
+        </nav>
+    </div>
+
+  
+
+    <section class="contenido">
+        <h1 align="center">Postres</h1>
+        <p>Los postres aqui presentados, asi como cada una de sus recetas, han sido meticulosamente seleccionadas para traer al publico la manera 
+            mas eficiente y exitosa de peparar cada uno de los postres y /o bebidas que el internauta desee
+        </p>
+    </section>
+
+    <div class="contenedor-flex">
+        <div class="grupo">
+            <div class="div-encabezado" onclick="window.location.href='cupcakes.html';" style="cursor: pointer;">
+                <div class="item">
+                    <img class="curry" src="imagenes/cupcake.png" alt="cupcake">
+                    <h5 align="center">Cupcake</h5>
+                </div>
+            </div>
+            <div class="div-encabezado" onclick="window.location.href='pastel.html';" style="cursor: pointer;">
+                <div class="item">
+                    <img class="curry" src="imagenes/pastel.png" alt="pastel">
+                    <h5 align="center">Pastel</h5>
+                </div>
+            </div>
+            <div class="div-encabezado" onclick="window.location.href='helados.html';" style="cursor: pointer;">
+                <div class="item">
+                    <img class="curry" src="imagenes/helado.png" alt="helado">
+                    <h5 align="center">Helados</h5>
+                </div>
+            </div>
+        </div>
+        <div class="grupo">
+            <div class="div-encabezado" onclick="window.location.href='malteadas.html';" style="cursor: pointer;">
+                <div class="item">
+                    <img class="curry" src="imagenes/Malteada.png" alt="Malteada">
+                    <h5>Batidos/Malteadas</h5>
+                </div>
+            </div>
+            <div class="div-encabezado" onclick="window.location.href='galletas.html';" style="cursor: pointer;">
+                <div class="item">
+                    <img class="curry" src="imagenes/galletitas.jfif" alt="paleta">
+                    <h5>Galletas</h5>
+                </div>
+            </div>
+            <div class="div-encabezado" onclick="window.location.href='recetas.html';" style="cursor: pointer;">
+                <div class="item">
+                    <img class="curry" src="imagenes/gelatina.png" alt="gelatina">
+                    <h5>Gelatinas</h5>
+                </div>
+            </div>
+        </div>
+        <div class="grupo">
+            <div class="div-encabezado" onclick="window.location.href='recetas.html';" style="cursor: pointer;">
+                <div class="item">
+                    <img class="curry" src="imagenes/ensaladas frutales.png" alt="en. frutales">
+                    <h5>Ensaladas Frutales</h5>
+                </div>
+            </div>
+            <div class="div-encabezado" onclick="window.location.href='tartas.html';" style="cursor: pointer;">
+                <div class="item">
+                    <img class="curry" src="imagenes/tarta.png" alt="tarta">
+                    <h5>Tartas</h5>
+                </div>
+            </div>
+            <div class="div-encabezado" onclick="window.location.href='recetas.html';" style="cursor: pointer;">
+                <div class="item">
+                    <img class="curry" src="imagenes/bebida frutal.png" alt="b. frutal">
+                    <h5>Bebidas Frutales</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="footer" id="acerca">
+        <h2 align="center">Acerca de Nosotros</h2>
+        <p>Somos un microemprendimiento que se dedica a la elaboracion, distribucion y venta de distintos 
+            tipos de postres en Veracruz. Postres Gominola cuenta con mas de 20 años de expereiencia laboral
+            en la elaboracion de postres
+
+        </p>
+    </section>
+
+    <section class="contenido de contactos">
+        <h2 class="title" align="center">Contactos</h2>
+        <div class="contacto">
+            <a href="https://wa.me/522295254424"> <img src="imagenes/whatsapp-line.png" alt="whats" style="width: 75px; height: 100px "> </a>
+            <a href="mailto:emilianodominguez1515@gmail.com"> <img class="mail" src="imagenes/mail-line.png" alt="mail" style="width: 75px; height: 100px "> </a>
+            <a href="https://www.facebook.com/profile.php?id=61560884864684"> <img src="imagenes/facebook-circle-fill.png" alt="face"style="width: 75px; height: 100px "> </a>
+            <p align="center" style="font-size: x-large;"></p>
+        </div>
+
+
+   <bgsound src="Main Theme - sugar (game)(MP3_160K).mp3" autoplay loop="infinite"></bgsound> 
+
+</body>
+</html>
